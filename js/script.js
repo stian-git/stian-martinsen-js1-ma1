@@ -13,7 +13,6 @@ const cats = [
 ];
 
 // Question 1
-
 const cat = {
   complain: function () {
     console.log("Meow!");
@@ -49,6 +48,7 @@ function showNames(list) {
   }
 }
 showNames(cats);
+
 // Question 8
 function createCats(cats) {
   let html = "";
